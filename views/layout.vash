@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>@model.title</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="/stylesheets/style.css" rel="stylesheet" />
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="../public/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>Layout</h1>
+	<div>@html.block("body")</div>
+</body>
+</html>
+

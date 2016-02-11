@@ -1,0 +1,15 @@
+﻿@html.extend('layout',function(model){
+	@html.block('body',function(model){
+        <h2>Test</h2>
+		<h3>Title - @model.title</h3>
+
+        <ul>
+            <li>
+                <a href="/auth/google" class="googleplus">
+                    <i class="fa fa-google-plus"></i>
+                </a>
+            </li>
+        </ul>
+
+	})
+})
